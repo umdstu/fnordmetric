@@ -9,15 +9,7 @@ plotting and counting functions as ruby blocks! [See it in action! (RailsCasts)]
 Getting Started
 ---------------
 
-Simple Example: this will listen for json-events with `type=unicorn_seen` 
-and render a timeline-plot showing the number of received events per hour.
-
 See master branch
-
-This is the easiest way to submit an event:
-
-    echo '{"_type": "unicorn_seen"}' | nc localhost 1337
-
 
 
 Installation
